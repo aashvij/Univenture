@@ -1,0 +1,75 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Averia Libre', cursive;
+    background-color: #fdd8da;
+}
+
+.container {
+    text-align: center;
+}
+
+#logo{
+    height: 200px;
+    width: 200px;
+}
+
+h1 {
+    font-size: 100px;
+    margin-bottom: 10px;
+    color: #365359;
+}
+
+h5{
+    font-size: 30px;
+}
+
+p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    padding: 20px 40px;
+    font-size: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    color: #fb9da0;
+}
+
+a, a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+#buyer {
+    background-color: #fb9da0;
+    color: white;
+}
+
+#buyer:hover {
+    background-color: #365359;
+    color: white;
+}
+
+#seller {
+    background-color: #fb9da0;
+    color: white;
+}
+
+#seller:hover {
+    background-color: #365359;
+    color: white;
+}

@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Averia Libre', cursive;
+    background-color: #fdd8da;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    align-items: flex-start;
+}
+
+.site-header {
+    background-color: #93B7BE;
+    color: 365359;
+    width: 100%;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    margin: 0;
+    font-size: 45px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    margin-left: 20px;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.nav ul li a:hover {
+    color: #fdd8da;
+}
+
+.login-container {
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 300px;
+    font-family: 'Averia Libre', cursive;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.input {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    background-color: #fb9da0;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #365359;
+}
+
+button[type="button"] {
+    background-color: #fb9da0;
+}
+
+button[type="button"]:hover {
+    background-color: #365359;
+}
+
+a, a:hover{
+    text-decoration: none;
+    color: white;
+}
